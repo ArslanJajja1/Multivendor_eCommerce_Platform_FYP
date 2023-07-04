@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
-
+const {ObjectId} = Schema
 const productSchema = new mongoose.Schema(
   {
     name: { type: String, required: true },
@@ -12,7 +12,7 @@ const productSchema = new mongoose.Schema(
     countinstock: { type: Number, required: true },
     rating: { type: Number, required: true },
     numReviews: { type: Number, required: true },
-    vendor: { type: Schema.Types.ObjectId, ref: "Vendor", required: true },
+    vendor: { type: Schema.Types.ObjectId, ref: "Vendor", default:"649f2b3beedec477aa85a65a"},
     comments: [
       {
         userid: { type: Schema.Types.ObjectId, ref: "User1" },

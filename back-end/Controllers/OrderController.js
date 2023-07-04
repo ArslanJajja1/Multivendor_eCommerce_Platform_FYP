@@ -50,7 +50,6 @@ export const getorders = async (req, res) => {
   const searchVal = req.query.sval;
   const userId = req.query.uid;
 
-  console.log(q);
 
   // const searchVal = req.query.sval;
   // let filter = {};

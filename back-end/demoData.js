@@ -78,7 +78,7 @@ const data = {
       rating: 3,
       numReviews: 10,
       description: "high quality products",
-      image: "/images/img1.jpg",
+      image: "/assets/images/img1.jpg",
     },
     {
       // _id: "2",
@@ -91,7 +91,7 @@ const data = {
       rating: 4.5,
       numReviews: 10,
       description: "high quality products",
-      image: "/images/img4.jpg",
+      image: "/assets/images/img4.jpg",
     },
     {
       // _id: "3",
@@ -104,7 +104,7 @@ const data = {
       rating: 2.5,
       numReviews: 10,
       description: "high quality products",
-      image: "/images/img2.jpg",
+      image: "/assets/images/img2.jpg",
     },
     {
       // _id: "4",
@@ -117,7 +117,7 @@ const data = {
       rating: 1.5,
       numReviews: 10,
       description: "high quality products",
-      image: "/images/img5.jpg",
+      image: "/assets/images/img5.jpg",
     },
     {
       // _id: "5",
@@ -130,7 +130,7 @@ const data = {
       rating: 2.5,
       numReviews: 40,
       description: "high quality products",
-      image: "/images/img-6.jpg",
+      image: "/assets/images/img-6.jpg",
     },
     {
       // _id: "6",
@@ -143,7 +143,7 @@ const data = {
       rating: 4,
       numReviews: 30,
       description: "high quality products",
-      image: "/images/img7.jpg",
+      image: "/assets/images/img7.jpg",
     },
   ],
 };

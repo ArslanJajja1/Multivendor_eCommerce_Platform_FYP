@@ -8,7 +8,7 @@ const DemoRouter = express.Router();
 
 DemoRouter.get("/adduserss", async(req, res) => {
     await User1.remove({});
-    const createdUsers = await User.insertMany(data.users);
+    const createdUsers = await User1.insertMany(data.users);
     // await User.remove({});
     // const createdUsers = await User.insertMany(data.users);
     res.send({ createdUsers });
